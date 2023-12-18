@@ -33,7 +33,7 @@ def predict():
 
     prediction = test_predict_tfserving(text, dict_word=word_dict, endpoint="https://kulinerin-app-q6za24kwsq-uc.a.run.app/v1/models/kulinerin-app:predict")
 
-    list_class_name = ["negative", "neutral", "positive"]
+    list_class_name = ["negative", "netral", "positive"]
 
     index_class_predicted = np.argmax(prediction)
     class_name_predicted = list_class_name[index_class_predicted]
