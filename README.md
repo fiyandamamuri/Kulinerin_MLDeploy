@@ -11,5 +11,5 @@ requirements.text https://github.com/kzquandary/sentimen/blob/c981308aa1003d1fb1
 
 word_dict.json
 
-run the test.py to use it.
+test.py
 
